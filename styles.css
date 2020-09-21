@@ -7,9 +7,9 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
-  color: #222;
-  background: #f7f5f0;
+  font-family: 'Roboto', sans-serif ;
+  color: rgb(70, 56, 56);
+  background: #f8f8f6;
 }
 /* Link Styles */
 
@@ -43,7 +43,7 @@ a:hover {
 .nav .name {
     display: block;
     margin-right: auto;
-    color: white;
+    color: red;
 }
 .nav li {
   padding: 5px 10px 10px 10px;
@@ -57,24 +57,29 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('images/rsz_1beavertail.jpg') no-repeat top center ; 
   background-size: cover;
   overflow: hidden;
-  padding-top: 60px;
+  padding-top: 30px;
 }
 header {
   line-height: 1.5;
 }
 header .profile-image {
   margin-top: 50px;
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
+  width: 175px;
+  height: 175px;
+  border-radius: 20%;
   border: 3px solid white;
   transition: all .5s;
+  transition-property: all;
+  transition-duration: .5s;
+  transition-timing-function: linear;
+  
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+    border-radius: 50%;
+    border-color: yellowgreen;
 }
 .tag {
   background-color: #efefef;
@@ -83,23 +88,34 @@ header .profile-image:hover {
   border-radius: 5px;
   display: table;
   margin: 10px auto;
+    border-top-right-radius: 60%;
+  border-top-left-radius: 60%;
+  border-bottom-left-radius: 60%;
+  border-bottom-right-radius: 60%;
 } 
 .location {
-  background-color: #222;
+  background-color: rgb(5, 120, 228);
+  padding: 15px;
   color: yellow;
+  border-top-right-radius: 60%;
+  border-top-left-radius: 60%;
+  border-bottom-left-radius: 60%;
+  border-bottom-right-radius: 60%;
 }
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
   text-align: left;
-  background: #fff;
+  background: rgb(236, 231, 231);
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
   transition: all .5s;
+  
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: #1ab682;
+  transform: scale(1.02);
 }
 
 ul.skills {
@@ -110,10 +126,10 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #ff9904;
+  background: #0cff04;
   color: white;
   padding: 5px 10px;
-  margin: 2px;
+  margin: 10px;
 }
 
 .skills li:nth-child(odd) {
@@ -151,15 +167,19 @@ a.social {
   opacity: .4;
   transition: all .5s;
 }
-a.twitter {
-  background-image: url(images/twitter.svg);
+a.instagram {
+  background-image: url(images/insta.jpg);
 }
-a.linkedin {
-  background-image: url(images/linkedin.svg);
+a.soundcloud {
+  background-image: url(images/sc.png);
 }
 a.github {
   background-image: url(images/github.svg);
 }
+a.youtube {
+  background-image: url(images/yt.png);
+}
+
 a.social:hover {
   opacity: 1;
 }
