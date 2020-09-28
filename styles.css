@@ -109,7 +109,7 @@ header .profile-image:hover {
   text-align: left;
   background: rgb(236, 231, 231);
   border-bottom: 4px solid #ccc;
-  border-radius: 6px;
+  border-radius: 10px;
   transition: all .5s;
   
   
