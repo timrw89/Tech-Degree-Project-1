@@ -101,7 +101,7 @@ header {
 .card:hover {
     border-color: #1ab682;
     Background-image: url(../images/mntsrsz.jpg);
-    background-size: cover;
+    background-size: 100% 100%;
     transform: scale(1.02);
     border-radius: 80px;
     text-decoration-thickness: 5px;

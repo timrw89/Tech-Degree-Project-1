@@ -88,7 +88,7 @@ header .profile-image:hover {
   border-radius: 5px;
   display: table;
   margin: 10px auto;
-    border-top-right-radius: 60%;
+  border-top-right-radius: 60%;
   border-top-left-radius: 60%;
   border-bottom-left-radius: 60%;
   border-bottom-right-radius: 60%;
@@ -112,12 +112,22 @@ header .profile-image:hover {
   border-radius: 6px;
   transition: all .5s;
   
+  
 }
 .card:hover {
   border-color: #1ab682;
   transform: scale(1.02);
 }
-
+.cardimage {
+  margin-top: 10px;
+  width: 400px;
+  height: 150px;
+  border-radius: 10%;
+  align-content: center;  
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
 ul.skills {
   padding: 0;
   text-align: center;
