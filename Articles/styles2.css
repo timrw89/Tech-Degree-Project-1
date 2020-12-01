@@ -32,7 +32,7 @@ a:hover {
     position: fixed;
     text-align: center;
   }
-.nav {
+.navbar {
     display: flex;
     justify-content: space-around;
     font-weight: 700;
@@ -41,19 +41,19 @@ a:hover {
     padding: 0;
   }
   
-.nav .name {
+.navbar .name {
       display: block;
       margin-right: auto;
       color: red;
   }
-.nav li {
+.navbar li {
     padding: 5px 10px 10px 10px;
   }
-.nav a {
+.navbar a {
     color: #1ab682;
     transition: all .1s;
   }
-.nav a:hover {
+.navbar a:hover {
     color: rgb(94, 8, 192)
   }
   
